@@ -23,4 +23,16 @@ Gem::Specification.new do |s|
   s.add_dependency("toadhopper", ">= 1.3.0")
 
   s.add_development_dependency("mocha")
+
+  s.post_install_message = %q{
+  ========================================================================
+  WARNING
+  ------------------------------------------------------------------------
+  This gem was renamed to airbrake_handler, due to service name change.
+  New gem can be found at: https://rubygems.org/gems/airbrake_handler
+  Repository: https://github.com/morgoth/airbrake_handler
+
+  This gem will no longer be supported.
+  ========================================================================
+  }
 end
