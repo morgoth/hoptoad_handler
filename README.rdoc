@@ -1,4 +1,12 @@
-= Hoptoad handler for Chef
+= WARNING
+
+This gem was renamed to airbrake_handler, due to changing service name:
+http://robots.thoughtbot.com/post/7665411707/hoptoad-is-now-airbrake
+
+New gem can be found at: https://rubygems.org/gems/airbrake_handler
+Repository: https://github.com/morgoth/airbrake_handler
+
+== Hoptoad handler for Chef
 
 Report chef exceptions to hoptoad.
 
